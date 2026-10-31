@@ -62,27 +62,14 @@
 .end method
 
 .method private fetchApiBaseData()V
-    .locals 2
+    .locals 0
 
-    .line 1
-    iget-object v0, p0, Lir/parsapp/gamebooster/activity/SplashActivity;->apiClient:Lir/parsapp/gamebooster/api/ApiClient;
+    # PATCHED: offline-first startup. The backend always reports an
+    # offline-registered user as unauthorized (is_user_authorized:false),
+    # which used to wipe the local session and bounce the user back to the
+    # login screen. Enter the app directly; all booster engines are local.
+    invoke-virtual {p0}, Lir/parsapp/gamebooster/activity/SplashActivity;->openMainActivity()V
 
-    .line 2
-    .line 3
-    new-instance v1, Lir/parsapp/gamebooster/activity/SplashActivity$1;
-
-    .line 4
-    .line 5
-    invoke-direct {v1, p0}, Lir/parsapp/gamebooster/activity/SplashActivity$1;-><init>(Lir/parsapp/gamebooster/activity/SplashActivity;)V
-
-    .line 6
-    .line 7
-    .line 8
-    invoke-virtual {v0, v1}, Lir/parsapp/gamebooster/api/ApiClient;->getBaseData(Lba/d;)V
-
-    .line 9
-    .line 10
-    .line 11
     return-void
 .end method
 

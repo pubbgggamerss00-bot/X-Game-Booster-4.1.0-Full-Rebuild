@@ -70,40 +70,13 @@
 
     .line 1
     invoke-super {p0, p1}, Lir/parsapp/gamebooster/auth/GoogleSignIn$IResult;->onSuccess(Lir/parsapp/gamebooster/models/GoogleAuthModel;)V
+    # PATCHED: manual (offline) registration — no server round-trip at all.
+    # LocalGoogleSignIn$OnOk stored the credentials before onSuccess;
+    # registerAndFinish builds the local session and finishes LoginActivity.
+    iget-object p1, p0, Lir/parsapp/gamebooster/activity/LoginActivity$1;->this$0:Lir/parsapp/gamebooster/activity/LoginActivity;
 
-    .line 2
-    .line 3
-    .line 4
-    iget-object v0, p0, Lir/parsapp/gamebooster/activity/LoginActivity$1;->this$0:Lir/parsapp/gamebooster/activity/LoginActivity;
+    invoke-static {p1}, Lir/parsapp/gamebooster/auth/LocalRegistration;->registerAndFinish(Landroid/app/Activity;)V
 
-    .line 5
-    .line 6
-    iget-object v0, v0, Lir/parsapp/gamebooster/activity/LoginActivity;->apiClient:Lir/parsapp/gamebooster/api/ApiClient;
-
-    .line 7
-    .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    iget-object p1, p1, Lir/parsapp/gamebooster/models/GoogleAuthModel;->idToken:Ljava/lang/String;
-
-    .line 11
-    .line 12
-    new-instance v1, Lir/parsapp/gamebooster/activity/LoginActivity$1$1;
-
-    .line 13
-    .line 14
-    invoke-direct {v1, p0}, Lir/parsapp/gamebooster/activity/LoginActivity$1$1;-><init>(Lir/parsapp/gamebooster/activity/LoginActivity$1;)V
-
-    .line 15
-    .line 16
-    .line 17
-    invoke-virtual {v0, p1, v1}, Lir/parsapp/gamebooster/api/ApiClient;->loginWithGoogle(Ljava/lang/String;Lba/d;)V
-
-    .line 18
-    .line 19
-    .line 20
     :cond_0
     return-void
 .end method

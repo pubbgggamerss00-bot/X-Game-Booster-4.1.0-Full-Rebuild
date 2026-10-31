@@ -167,27 +167,9 @@
     .line 32
     .line 33
     :cond_0
-    iget-object v0, p2, Lba/c0;->a:Lokhttp3/Response;
-
-    .line 34
-    .line 35
-    iget v0, v0, Lokhttp3/Response;->d:I
-
-    .line 36
-    .line 37
-    const/16 v1, 0x193
-
-    .line 38
-    .line 39
-    if-ne v0, v1, :cond_1
-
-    .line 40
-    .line 41
-    invoke-static {}, Lir/parsapp/gamebooster/auth/AuthManager;->removeUserLoginInfo()V
-
-    .line 42
-    .line 43
-    .line 44
+    # PATCHED: never auto-logout on HTTP 403. The manual-registration
+    # token is issued locally; wiping the session here would bounce the
+    # user back to the login screen forever.
     :cond_1
     iget-object v0, p0, Lir/parsapp/gamebooster/api/ApiClient$1;->val$callback:Lba/d;
 

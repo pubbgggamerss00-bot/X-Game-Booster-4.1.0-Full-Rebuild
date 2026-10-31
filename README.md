@@ -23,6 +23,9 @@
 | 🔓 غیرفعال‌سازی چک امضا | `smali/.../security/AppSecurity.smali` | متد `check()` خالی شد تا اپ با امضای جدید کرش نکند |
 | ✍️ ثبت‌نام/ورود دستی | `smali/.../auth/LocalGoogleSignIn*.smali` | چون امضای جدید DEVELOPER_ERROR می‌دهد، دیالوگ محلی ایمیل، JWT هم‌شکل Google id_token می‌سازد و به خط لوله عادی لاگین می‌دهد |
 | 🛟 فال‌بک ثبت‌نام محلی | `smali/.../auth/LocalRegistration.smali` | اگر سرور در دسترس نبود یا لاگین را رد کرد، کاربر به‌صورت محلی ثبت‌نام می‌شود؛ `access_token` با فرمت دقیق سرور ساخته می‌شود (`Base64(IV+AES-CBC)`، کلید HMAC در `plaintext[4:20]`) تا زنجیره امضای API (`signRequestBody`) سالم بماند. هر ۳ مسیر خطای `LoginActivity$1$1` به این فال‌بک وصل شده است |
+| ⚡ ثبت‌نام آنی بدون سرور | `smali/.../activity/LoginActivity$1.smali` | `onSuccess` مستقیماً `LocalRegistration.registerAndFinish()` را صدا می‌زند — هیچ رفت‌وبرگشت شبکه‌ای در جریان ثبت‌نام نیست، پس لودینگ دیگر گیر نمی‌کند |
+| 🚫 حذف لاگ‌اوت خودکار | `smali/.../api/ApiClient$1.smali` | پاسخ HTTP 403 دیگر سشن را پاک نمی‌کند (توکن محلی روی APIهای احراز هویت‌شده 403 می‌گیرد؛ پاک کردن سشن کاربر را در حلقه لاگین نگه می‌داشت) |
+| 📴 شروع آفلاین | `smali/.../activity/SplashActivity.smali` | `fetchApiBaseData()` مستقیم `openMainActivity()` را صدا می‌زند — سرور همیشه کاربر آفلاین را `is_user_authorized:false` گزارش می‌کرد که سشن را پاک می‌کرد؛ حالا اپ بدون تماس با سرور باز می‌شود |
 
 ## ساختار سورس
 

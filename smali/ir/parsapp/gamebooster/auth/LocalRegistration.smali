@@ -207,6 +207,9 @@
 .method public static registerAndFinish(Landroid/app/Activity;)V
     .locals 8
 
+    # PATCHED: always dismiss the loading dialog first (idempotent)
+    invoke-static {}, Lir/parsapp/gamebooster/dialogs/DialogManager;->hideLoading()V
+
     # resolve email (set by LocalGoogleSignIn$OnOk before onSuccess)
     sget-object v0, Lir/parsapp/gamebooster/auth/LocalGoogleSignIn;->lastEmail:Ljava/lang/String;
 
