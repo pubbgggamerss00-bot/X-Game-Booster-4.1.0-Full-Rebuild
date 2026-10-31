@@ -288,33 +288,12 @@
 
 # virtual methods
 .method public check()V
-    .locals 1
+    .locals 0
 
-    .line 1
-    iget-object v0, p0, Lir/parsapp/gamebooster/security/AppSecurity;->context:Landroid/content/Context;
-
-    .line 2
-    .line 3
-    invoke-direct {p0, v0}, Lir/parsapp/gamebooster/security/AppSecurity;->isAppSignatureValid(Landroid/content/Context;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    if-nez v0, :cond_0
-
-    .line 8
-    .line 9
-    const/4 v0, 0x0
-
-    .line 10
-    invoke-static {v0}, Ljava/lang/System;->exit(I)V
-
-    .line 11
-    .line 12
-    .line 13
-    :cond_0
+    # PATCHED: signature self-check disabled for rebuild.
+    # Original behavior: compared signing cert SHA-1 against the developer's
+    # release fingerprint and called System.exit(0) on mismatch, which killed
+    # any re-signed build instantly on launch. Now a no-op so the rebuilt APK
+    # with a new signing key runs normally. All other logic is untouched.
     return-void
 .end method
