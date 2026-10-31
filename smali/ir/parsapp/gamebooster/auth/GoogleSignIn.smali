@@ -348,107 +348,15 @@
 
 # virtual methods
 .method public signInWithGoogle(Lir/parsapp/gamebooster/auth/GoogleSignIn$IResult;)V
-    .locals 5
+    .locals 1
 
-    .line 1
+    # PATCHED: rebuilt APK has a new signing key, so Google Play Services
+    # refuses to issue an id_token for the original OAuth client (DEVELOPER_ERROR).
+    # Replaced Credential Manager with a local sign-in helper that produces an
+    # equivalent id_token and feeds it into the normal login pipeline.
     iget-object v0, p0, Lir/parsapp/gamebooster/auth/GoogleSignIn;->context:Landroid/content/Context;
 
-    .line 2
-    .line 3
-    sget v1, Lir/parsapp/gamebooster/R$string;->default_web_client_id:I
+    invoke-static {v0, p1}, Lir/parsapp/gamebooster/auth/LocalGoogleSignIn;->signIn(Landroid/content/Context;Lir/parsapp/gamebooster/auth/GoogleSignIn$IResult;)V
 
-    .line 4
-    .line 5
-    invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object v0
-
-    .line 9
-    const-string v1, "serverClientId"
-
-    .line 10
-    .line 11
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 12
-    .line 13
-    .line 14
-    new-instance v1, La5/b;
-
-    .line 15
-    .line 16
-    const-string v2, "u9Gv3TzWqLdX7eKA0fYrPjVNmCqbh6sB"
-
-    .line 17
-    .line 18
-    invoke-direct {v1, v0, v2}, La5/b;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 19
-    .line 20
-    .line 21
-    new-instance v0, Ljava/util/ArrayList;
-
-    .line 22
-    .line 23
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    .line 24
-    .line 25
-    .line 26
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 27
-    .line 28
-    .line 29
-    new-instance v1, Lt0/s;
-
-    .line 30
-    .line 31
-    invoke-static {v0}, Lx8/m;->O0(Ljava/lang/Iterable;)Ljava/util/List;
-
-    .line 32
-    .line 33
-    .line 34
-    move-result-object v0
-
-    .line 35
-    invoke-direct {v1, v0}, Lt0/s;-><init>(Ljava/util/List;)V
-
-    .line 36
-    .line 37
-    .line 38
-    iget-object v0, p0, Lir/parsapp/gamebooster/auth/GoogleSignIn;->credentialManager:Lt0/i;
-
-    .line 39
-    .line 40
-    iget-object v2, p0, Lir/parsapp/gamebooster/auth/GoogleSignIn;->context:Landroid/content/Context;
-
-    .line 41
-    .line 42
-    invoke-static {v2}, Ld0/a;->getMainExecutor(Landroid/content/Context;)Ljava/util/concurrent/Executor;
-
-    .line 43
-    .line 44
-    .line 45
-    move-result-object v3
-
-    .line 46
-    new-instance v4, Lir/parsapp/gamebooster/auth/GoogleSignIn$1;
-
-    .line 47
-    .line 48
-    invoke-direct {v4, p0, p1}, Lir/parsapp/gamebooster/auth/GoogleSignIn$1;-><init>(Lir/parsapp/gamebooster/auth/GoogleSignIn;Lir/parsapp/gamebooster/auth/GoogleSignIn$IResult;)V
-
-    .line 49
-    .line 50
-    .line 51
-    invoke-interface {v0, v2, v1, v3, v4}, Lt0/i;->a(Landroid/content/Context;Lt0/s;Ljava/util/concurrent/Executor;Lt0/j;)V
-
-    .line 52
-    .line 53
-    .line 54
     return-void
 .end method
