@@ -221,7 +221,7 @@
 
 # virtual methods
 .method public onCreate(Landroid/os/Bundle;)V
-    .locals 3
+    .locals 6
 
     .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/r;->onCreate(Landroid/os/Bundle;)V
@@ -379,6 +379,22 @@
     .line 80
     .line 81
     iput-object v0, p0, Lir/parsapp/gamebooster/activity/LoginActivity;->btnAccountLogin:Landroid/widget/LinearLayout;
+
+    # PATCHED: the original build left this button without a click listener
+    # (empty lambda$onCreate$3), so tapping it did nothing. Wire it to the
+    # same Google sign-in flow (l8/t with case!=0 -> lambda$onCreate$4) using
+    # fresh registers v3-v5 (onCreate locals bumped 3 -> 6).
+    new-instance v3, Ll8/t;
+    const/4 v4, 0x1
+    invoke-direct {v3, p0, v4}, Ll8/t;-><init>(Lir/parsapp/gamebooster/activity/LoginActivity;I)V
+
+    sget v5, Lir/parsapp/gamebooster/R$id;->btn_account_login:I
+
+    invoke-virtual {p0, v5}, Lf/b;->findViewById(I)Landroid/view/View;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 82
     .line 83
