@@ -67,37 +67,13 @@
     .line 1
     invoke-static {}, Lir/parsapp/gamebooster/dialogs/DialogManager;->hideLoading()V
 
-    .line 2
-    .line 3
-    .line 4
+    # PATCHED: server unreachable -> manual (local) registration fallback
     iget-object p1, p0, Lir/parsapp/gamebooster/activity/LoginActivity$1$1;->this$1:Lir/parsapp/gamebooster/activity/LoginActivity$1;
 
-    .line 5
-    .line 6
     iget-object p1, p1, Lir/parsapp/gamebooster/activity/LoginActivity$1;->this$0:Lir/parsapp/gamebooster/activity/LoginActivity;
 
-    .line 7
-    .line 8
-    sget p2, Lir/parsapp/gamebooster/R$string;->error_no_internet:I
+    invoke-static {p1}, Lir/parsapp/gamebooster/auth/LocalRegistration;->registerAndFinish(Landroid/app/Activity;)V
 
-    .line 9
-    .line 10
-    const/4 v0, 0x1
-
-    .line 11
-    invoke-static {p1, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
-
-    .line 12
-    .line 13
-    .line 14
-    move-result-object p1
-
-    .line 15
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
-
-    .line 16
-    .line 17
-    .line 18
     return-void
 .end method
 
@@ -317,77 +293,26 @@
     :cond_0
     invoke-static {}, Lir/parsapp/gamebooster/dialogs/DialogManager;->hideLoading()V
 
-    .line 100
-    .line 101
-    .line 102
+    # PATCHED: server refused the login -> manual (local) registration fallback
     iget-object p2, p0, Lir/parsapp/gamebooster/activity/LoginActivity$1$1;->this$1:Lir/parsapp/gamebooster/activity/LoginActivity$1;
 
-    .line 103
-    .line 104
-    iget-object p2, p2, Lir/parsapp/gamebooster/activity/LoginActivity$1;->val$v:Landroid/view/View;
+    iget-object p2, p2, Lir/parsapp/gamebooster/activity/LoginActivity$1;->this$0:Lir/parsapp/gamebooster/activity/LoginActivity;
 
-    .line 105
-    .line 106
-    check-cast p1, Lir/parsapp/gamebooster/api/models/ApiResponseModel;
+    invoke-static {p2}, Lir/parsapp/gamebooster/auth/LocalRegistration;->registerAndFinish(Landroid/app/Activity;)V
 
-    .line 107
-    .line 108
-    iget-object p1, p1, Lir/parsapp/gamebooster/api/models/ApiResponseModel;->message:Ljava/lang/String;
-
-    .line 109
-    .line 110
-    invoke-static {p2, p1, v0}, Lir/parsapp/gamebooster/ui/UI;->showSnack(Landroid/view/View;Ljava/lang/String;I)V
-
-    .line 111
-    .line 112
-    .line 113
     goto :goto_0
 
     .line 114
     :cond_1
     invoke-static {}, Lir/parsapp/gamebooster/dialogs/DialogManager;->hideLoading()V
 
-    .line 115
-    .line 116
-    .line 117
+    # PATCHED: non-2xx response -> manual (local) registration fallback
     iget-object p1, p0, Lir/parsapp/gamebooster/activity/LoginActivity$1$1;->this$1:Lir/parsapp/gamebooster/activity/LoginActivity$1;
 
-    .line 118
-    .line 119
     iget-object p1, p1, Lir/parsapp/gamebooster/activity/LoginActivity$1;->this$0:Lir/parsapp/gamebooster/activity/LoginActivity;
 
-    .line 120
-    .line 121
-    const-string p2, "forbidden!"
+    invoke-static {p1}, Lir/parsapp/gamebooster/auth/LocalRegistration;->registerAndFinish(Landroid/app/Activity;)V
 
-    .line 122
-    .line 123
-    invoke-static {p1, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
-
-    .line 124
-    .line 125
-    .line 126
-    move-result-object p1
-
-    .line 127
-    invoke-virtual {p1}, Landroid/widget/Toast;->show()V
-
-    .line 128
-    .line 129
-    .line 130
-    iget-object p1, p0, Lir/parsapp/gamebooster/activity/LoginActivity$1$1;->this$1:Lir/parsapp/gamebooster/activity/LoginActivity$1;
-
-    .line 131
-    .line 132
-    iget-object p1, p1, Lir/parsapp/gamebooster/activity/LoginActivity$1;->this$0:Lir/parsapp/gamebooster/activity/LoginActivity;
-
-    .line 133
-    .line 134
-    invoke-virtual {p1}, Landroid/app/Activity;->finish()V
-
-    .line 135
-    .line 136
-    .line 137
     :goto_0
     return-void
 .end method

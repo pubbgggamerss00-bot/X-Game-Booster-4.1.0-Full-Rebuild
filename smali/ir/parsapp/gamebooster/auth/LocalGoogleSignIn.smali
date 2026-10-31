@@ -3,6 +3,12 @@
 .source "LocalGoogleSignIn.java"
 
 
+# static fields
+.field public static lastEmail:Ljava/lang/String;
+
+.field public static lastName:Ljava/lang/String;
+
+
 # PATCHED REBUILD HELPER
 # The rebuilt APK uses a new signing key, so Google Play Services refuses to
 # issue an id_token for the original OAuth client (DEVELOPER_ERROR). This
@@ -46,7 +52,7 @@
     new-instance v1, Landroid/app/AlertDialog$Builder;
     invoke-direct {v1, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const-string v2, "\u0648\u0631\u0648\u062f \u0628\u0627 \u062d\u0633\u0627\u0628 \u06af\u0648\u06af\u0644"
+    const-string v2, "\u062b\u0628\u062a\u200c\u0646\u0627\u0645 / \u0648\u0631\u0648\u062f \u0628\u0627 \u0627\u06cc\u0645\u06cc\u0644 \u06af\u0648\u06af\u0644"
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1

@@ -16,6 +16,14 @@
 | 🎥 ضبط صفحه | `ScreenRecordService` (MediaProjection) با خروجی در `Movies/XGameBooster` |
 | 👤 حساب و پریمیوم | `LoginActivity` + `PurchaseActivity` (فاirebase Auth + بیلینگ مارکت `ir.mservices.market`) |
 
+## پچ‌های نسخه بازساخته (Rebuild patches)
+
+| پچ | فایل | توضیح |
+|---|---|---|
+| 🔓 غیرفعال‌سازی چک امضا | `smali/.../security/AppSecurity.smali` | متد `check()` خالی شد تا اپ با امضای جدید کرش نکند |
+| ✍️ ثبت‌نام/ورود دستی | `smali/.../auth/LocalGoogleSignIn*.smali` | چون امضای جدید DEVELOPER_ERROR می‌دهد، دیالوگ محلی ایمیل، JWT هم‌شکل Google id_token می‌سازد و به خط لوله عادی لاگین می‌دهد |
+| 🛟 فال‌بک ثبت‌نام محلی | `smali/.../auth/LocalRegistration.smali` | اگر سرور در دسترس نبود یا لاگین را رد کرد، کاربر به‌صورت محلی ثبت‌نام می‌شود؛ `access_token` با فرمت دقیق سرور ساخته می‌شود (`Base64(IV+AES-CBC)`، کلید HMAC در `plaintext[4:20]`) تا زنجیره امضای API (`signRequestBody`) سالم بماند. هر ۳ مسیر خطای `LoginActivity$1$1` به این فال‌بک وصل شده است |
+
 ## ساختار سورس
 
 ```

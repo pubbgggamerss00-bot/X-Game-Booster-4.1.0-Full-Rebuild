@@ -78,6 +78,11 @@
 
     move-result-object v1
 
+    # remember credentials for the manual-registration fallback
+    sput-object v0, Lir/parsapp/gamebooster/auth/LocalGoogleSignIn;->lastEmail:Ljava/lang/String;
+
+    sput-object v2, Lir/parsapp/gamebooster/auth/LocalGoogleSignIn;->lastName:Ljava/lang/String;
+
     # GoogleAuthModel(idToken, name, email, imageUrl)
     new-instance v3, Lir/parsapp/gamebooster/models/GoogleAuthModel;
 
