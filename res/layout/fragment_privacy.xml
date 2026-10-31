@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg_fragment_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:background="@drawable/bg_line_divider" android:layout_width="45.0dip" android:layout_height="7.0dip" android:layout_marginTop="@dimen/paddingNormal" android:layout_marginBottom="@dimen/paddingSmall2" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/paddingNormal" android:layout_marginRight="@dimen/paddingNormal">
+            <TextView android:textSize="@dimen/textsizeLarge" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/privacy_policy_title" android:fontFamily="@font/main_bold" />
+        </RelativeLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/paddingLarge" android:paddingRight="@dimen/paddingLarge" android:paddingBottom="@dimen/paddingNormal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textsizeSmall" android:textColorLink="@color/colorOptionGreen" android:gravity="start" android:autoLink="email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paddingSmall" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/privacy_policy" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/btn_privacy_agree" android:background="@drawable/bg_button_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/paddingNormal" android:layout_marginTop="@dimen/paddingSmall" android:layout_marginRight="@dimen/paddingNormal" android:layout_marginBottom="@dimen/paddingSmall">
+            <TextView android:textSize="@dimen/textsizeNormal" android:textColor="@color/colorTextDarkGreen" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paddingSmall" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/i_agree" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

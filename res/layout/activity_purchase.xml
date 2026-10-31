@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_purchase_root" android:background="@drawable/bg_fragment_purchase_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ir.parsapp.gamebooster.widget.CustomDrawableScatterView android:layout_width="fill_parent" android:layout_height="fill_parent" app:scatterCount="80" app:scatterDrawable="@drawable/ic_vip" app:scatterMaxAlpha="50" app:scatterTint="#fffff9eb" />
+    <RelativeLayout android:id="@id/rl_purchase_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="horizontal" android:paddingTop="@dimen/paddingNormal" android:paddingBottom="@dimen/paddingSmall2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge">
+                <ImageView android:id="@id/btn_purchase_back" android:layout_width="@dimen/icMenuSize" android:layout_height="@dimen/icMenuSize" android:contentDescription="@string/back" app:srcCompat="@drawable/ic_arrow_back" app:tint="@color/colorPremiumTitle" />
+                <TextView android:textSize="@dimen/textsizeNormal" android:textColor="@color/colorPremiumTitle" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upgrade_to_premium" android:fontFamily="@font/main_bold" android:layout_marginStart="@dimen/paddingSmall" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/textsizeNormal" android:textColor="@color/colorPremiumTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/premium_features" android:fontFamily="@font/main_bold" android:textDirection="locale" android:paddingStart="@dimen/paddingSmall" android:layout_marginStart="@dimen/paddingLarge" />
+            <androidx.core.widget.NestedScrollView android:background="@drawable/bg_purchase_box" android:paddingTop="@dimen/paddingLarge" android:paddingBottom="@dimen/paddingLarge" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/paddingLarge" android:layout_marginEnd="@dimen/paddingLarge">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/paddingLargeX" android:paddingEnd="@dimen/paddingLargeX">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_gaming_server" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_gaming_server" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_restrict_network" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_restrict_network" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_traffic_compression" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_traffic_compression" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_prefetch_dns" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_prefetch_dns" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_hud_mode" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_hud_mode" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/ll_purchase_dns_option" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_enable_dns" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_enable_dns" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_ram_optimization" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_ram_optimization" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_cpu_optimization" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_cpu_optimization" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2">
+                        <ImageView android:layout_width="@dimen/icPurchaseItemSize" android:layout_height="@dimen/icPurchaseItemSize" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/paddingNormal" app:srcCompat="@drawable/ic_tick_circle" app:tint="#ff328705" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff191c18" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_dnd_mode" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opt_desc_dnd_mode" android:alpha="0.8" android:fontFamily="@font/main_normal" android:textDirection="locale" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paddingNormal" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge">
+                <TextView android:textSize="@dimen/textsizeNormal" android:textColor="@color/colorPremiumTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/subscriptions" android:fontFamily="@font/main_bold" android:layout_marginStart="@dimen/paddingSmall" />
+                <RelativeLayout android:id="@id/ll_purchase_sub1_container" android:background="@drawable/bg_purchase_order_box" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorTextDark" android:id="@id/txt_purchase_sub1_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sub1m" android:layout_weight="1.0" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_purchase_sub1" android:background="@drawable/bg_button_galaxy" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paddingSmall2">
+                            <ImageView android:layout_width="@dimen/icAccountInfoSize" android:layout_height="@dimen/icAccountInfoSize" app:srcCompat="@drawable/ic_shopping_cart" app:tint="@color/colorTextDark" />
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorTextDark" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_now" android:singleLine="true" android:fontFamily="@font/main_bold" android:textDirection="locale" android:layout_marginStart="@dimen/paddingSmall2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/ll_purchase_sub2_container" android:background="@drawable/bg_purchase_order_box" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorTextDark" android:id="@id/txt_purchase_sub2_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sub2m" android:layout_weight="1.0" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_purchase_sub2" android:background="@drawable/bg_button_galaxy" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paddingSmall2">
+                            <ImageView android:layout_width="@dimen/icAccountInfoSize" android:layout_height="@dimen/icAccountInfoSize" app:srcCompat="@drawable/ic_shopping_cart" app:tint="@color/colorTextDark" />
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorTextDark" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_now" android:singleLine="true" android:fontFamily="@font/main_bold" android:textDirection="locale" android:layout_marginStart="@dimen/paddingSmall2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:orientation="vertical" android:id="@id/ll_purchase_sub3_container" android:background="@drawable/bg_purchase_order_box" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall2" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorTextDark" android:id="@id/txt_purchase_sub3_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sub3m" android:layout_weight="1.0" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_purchase_sub3" android:background="@drawable/bg_button_galaxy" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paddingSmall2">
+                            <ImageView android:layout_width="@dimen/icAccountInfoSize" android:layout_height="@dimen/icAccountInfoSize" app:srcCompat="@drawable/ic_shopping_cart" app:tint="@color/colorTextDark" />
+                            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorTextDark" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_now" android:singleLine="true" android:fontFamily="@font/main_bold" android:textDirection="locale" android:layout_marginStart="@dimen/paddingSmall2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorWhiteMain" android:gravity="center" android:background="@drawable/ic_discount_badge" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:text="@string/percent_10" android:includeFontPadding="false" android:rotation="12.0" android:fontFamily="@font/main_bold" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

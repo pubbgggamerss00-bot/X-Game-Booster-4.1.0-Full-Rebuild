@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_splash_root" android:background="@drawable/bg_splash" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ir.parsapp.gamebooster.widget.PolygonView android:layout_width="fill_parent" android:layout_height="fill_parent" app:m_blurRadius="1.0dip" />
+    <RelativeLayout android:id="@id/rl_splash_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img_splash_logo" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_centerInParent="true" app:srcCompat="@drawable/ic_splash_logo" />
+        <ir.parsapp.gamebooster.widget.CircularProgressBar android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="@dimen/paddingSmall" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:animateProgress="true" app:backgroundColor="#00ffffff" app:indeterminate="true" app:max="100" app:progress="80" app:progressGradientEnd="#ffef5dff" app:progressGradientStart="#ff00ffe1" app:shadowStroke="20" app:showPercent="false" app:showShadow="true" app:strokeWidth="9.0dip" style="?android:progressBarStyle" />
+    </RelativeLayout>
+</RelativeLayout>

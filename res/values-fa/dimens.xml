@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsizeLarge">17.0sp</dimen>
+    <dimen name="textsizeLargeX">20.0sp</dimen>
+    <dimen name="textsizeLargeXX">25.0sp</dimen>
+    <dimen name="textsizeNormal">15.0sp</dimen>
+    <dimen name="textsizeSmall">13.0sp</dimen>
+    <dimen name="textsizeSmallL">12.0sp</dimen>
+    <dimen name="textsizeSmallS">10.0sp</dimen>
+    <dimen name="textsizeSmallSS">8.0sp</dimen>
+</resources>

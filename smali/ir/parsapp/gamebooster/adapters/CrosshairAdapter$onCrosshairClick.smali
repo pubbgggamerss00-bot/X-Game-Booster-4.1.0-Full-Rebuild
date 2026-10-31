@@ -1,0 +1,14 @@
+.class public interface abstract Lir/parsapp/gamebooster/adapters/CrosshairAdapter$onCrosshairClick;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lir/parsapp/gamebooster/adapters/CrosshairAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "onCrosshairClick"
+.end annotation

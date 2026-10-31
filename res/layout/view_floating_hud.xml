@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_hud" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="@dimen/paddingNormal" android:paddingEnd="@dimen/paddingNormal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/icHUDSize" android:layout_height="@dimen/icHUDSize" android:src="@drawable/ic_atom" android:tint="#ff00ff00" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff00ff00" android:id="@id/fpsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FPS: 0" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/paddingSmall">
+            <ImageView android:layout_width="@dimen/icHUDSize" android:layout_height="@dimen/icHUDSize" android:src="@drawable/ic_memory" android:tint="#ff00ffff" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ff00ffff" android:id="@id/ramText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RAM: --" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_hud_cpu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/paddingSmall">
+            <ImageView android:layout_width="@dimen/icHUDSize" android:layout_height="@dimen/icHUDSize" android:src="@drawable/ic_cpu" android:tint="#ffffaa00" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ffffaa00" android:id="@id/cpuText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CPU: --" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/paddingSmall">
+            <ImageView android:layout_width="@dimen/icHUDSize" android:layout_height="@dimen/icHUDSize" android:src="@drawable/ic_temperature" android:tint="#ffff4444" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="#ffff4444" android:id="@id/tempText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Temp: --" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+        <ImageView android:id="@id/img_hud_close" android:layout_width="@dimen/icHUDSize" android:layout_height="@dimen/icHUDSize" android:src="@drawable/ic_close" android:tint="#ffffffff" android:alpha="1.0" android:layout_marginStart="@dimen/paddingSmall" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_new">NEW</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accept">Accept</string>
+    <string name="account_type">Account Type</string>
+    <string name="activate">Activate</string>
+    <string name="active_plan">Active Plan</string>
+    <string name="advance_settings">Advance Options</string>
+    <string name="alpha">Alpha</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Password</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Passkey</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app">App</string>
+    <string name="app_name">X Game Booster</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apply">Apply Changes</string>
+    <string name="audio_channel">Audio Channel</string>
+    <string name="audio_quality">Audio Quality</string>
+    <string name="audio_source">Audio Source</string>
+    <string name="back">Back</string>
+    <string name="battery">Battery %1$s</string>
+    <string name="battery_simple">Battery</string>
+    <string name="battery_temp">%1$.1f °C</string>
+    <string name="boost">Boost</string>
+    <string name="boost_plan">Boost Plan</string>
+    <string name="boost_settings">Boost Plans</string>
+    <string name="boosting">Boosting…</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
+    <string name="bottomsheet_action_expand">Expand the bottom sheet</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
+    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="bullet">•</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="cancel">Cancel</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="choose_games">Select Games</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="color">Color</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="continue_t">Continue</string>
+    <string name="continue_with_google">Continue With Google</string>
+    <string name="copy">Copy</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="crosshair">Crosshair</string>
+    <string name="deactive">Deactivate</string>
+    <string name="default_storage_notice">Full storage may cause lags and FPS drops in games!</string>
+    <string name="default_web_client_id">584654892175-t0iuipomt73e65mf0g8fh5csq0bptqv5.apps.googleusercontent.com</string>
+    <string name="dialog_accept">Accept</string>
+    <string name="dialog_gateway_error_desc_bazaar">We use the Bazaar payment gateway, which doesn’t seem to be installed on your device. Please install the Bazaar app, sign in to your Bazaar account, and then proceed with upgrading to Premium.</string>
+    <string name="dialog_gateway_error_desc_myket">We use the Myket payment gateway, which doesn’t seem to be installed on your device. Please install the Myket app, sign in to your Myket account, and then proceed with upgrading to Premium.</string>
+    <string name="dialog_gateway_error_title">Unable to connect to the payment gateway!</string>
+    <string name="dialog_ipg_cancel_desc">Are you sure you want to cancel the purchase?</string>
+    <string name="dialog_ipg_cancel_title">Cancel Purchase</string>
+    <string name="dialog_notification_permission_desc">To ensure proper functionality, please allow notification access for this app. This permission helps our background services run reliably and improves your overall experience.</string>
+    <string name="dialog_notification_permission_title">Notification Permission Required</string>
+    <string name="dialog_reject">Reject</string>
+    <string name="dialog_require_login_desc">To purchase a Premium account, you need to be logged in. Please sign in to your account first, then continue with your Premium upgrade</string>
+    <string name="dialog_require_login_title">Log In to Continue</string>
+    <string name="dialog_update_desc">It’s faster, better, and packed with cool stuff. Ready to update?</string>
+    <string name="dialog_update_title">New Update Available</string>
+    <string name="dialog_usage_permission_desc">Enable usage access to manage background processes during gaming.</string>
+    <string name="dialog_usage_permission_title">Why we need usage access?</string>
+    <string name="disable">Disable</string>
+    <string name="discount">OFF</string>
+    <string name="disturb_mode_while_game">Do not disturb mode while gaming</string>
+    <string name="edit">Exit</string>
+    <string name="email">Email</string>
+    <string name="empty" />
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="error_audio_record_failed">Audio recording permission denied! Video will be recorded without sound</string>
+    <string name="error_bazaar_not_detect">Bazaar app not found. Please open Bazaar and try again.</string>
+    <string name="error_forbidden">Forbidden error!</string>
+    <string name="error_gateway_init">"Can't connect to payment gateway!"</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_login_not_support">Only sign in with google is currently available</string>
+    <string name="error_no_internet">Could not connect to the internet!</string>
+    <string name="error_no_internet_desc">"We couldn't connect to the internet! Please make sure your mobile data or Wi-Fi is on, then tap the Retry button"</string>
+    <string name="error_no_internet_title">Network Error</string>
+    <string name="error_permission_denied">Permission is denied!</string>
+    <string name="error_unknown">Unknown error!</string>
+    <string name="error_when_purchase">Unknown error while purchase request!</string>
+    <string name="error_while_get_package">Error while getting game data!</string>
+    <string name="example">Example:</string>
+    <string name="expand">Expand</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="expiration_date">Expiration Date : %1$s</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="fps">FPS</string>
+    <string name="fps_settings">Optimize FPS</string>
+    <string name="game_icon">Game Icon</string>
+    <string name="game_pad">Game Pad</string>
+    <string name="games_list_title">My Games</string>
+    <string name="gcm_defaultSenderId">584654892175</string>
+    <string name="gift_desc">Get 10% off on 3-month Premium account! Hurry before it’s gone!</string>
+    <string name="gift_title">A special offer for you!</string>
+    <string name="go_boost">Play</string>
+    <string name="google">Google</string>
+    <string name="google_api_key">AIzaSyDW0nKO_ONQzdOdNLe26pFD-_Poc5Y6qHY</string>
+    <string name="google_app_id">1:584654892175:android:0dbeeea633d217ac91d4fa</string>
+    <string name="google_crash_reporting_api_key">AIzaSyDW0nKO_ONQzdOdNLe26pFD-_Poc5Y6qHY</string>
+    <string name="google_storage_bucket">x-game-booster-app.firebasestorage.app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help">Help</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="i_agree">I Agree</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="ignore">Ignore</string>
+    <string name="include_basic_features">Includes all basic features</string>
+    <string name="instaram_channel">Instagram</string>
+    <string name="ipg_title">Payment Gateway</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="letsgo">"Let's Go"</string>
+    <string name="login_privacy_accept_notice">By logging in or creating an account, you agree to our privacy policy and terms of service.</string>
+    <string name="logout">Logout</string>
+    <string name="m3_exceed_max_badge_text_suffix">%1$s%2$s</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0, 0, 1)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0, 0, 0, 1)</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_24h_suffix">%1$s hours</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Range end</string>
+    <string name="material_slider_range_start">Range start</string>
+    <string name="material_slider_value">Value</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="max_fps">Maximum FPS stability</string>
+    <string name="menu">Menu</string>
+    <string name="msg_login_success">Welcome %1$s</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_checkbox_button_icon_path_checked">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
+    <string name="mtrl_checkbox_button_icon_path_group_name">icon</string>
+    <string name="mtrl_checkbox_button_icon_path_indeterminate">M13.4,15 11,15 11,17 13.4,17 21,17 21,15z</string>
+    <string name="mtrl_checkbox_button_icon_path_name">icon path</string>
+    <string name="mtrl_checkbox_button_path_checked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z</string>
+    <string name="mtrl_checkbox_button_path_group_name">button</string>
+    <string name="mtrl_checkbox_button_path_name">button path</string>
+    <string name="mtrl_checkbox_button_path_unchecked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z M23,23H9V9h14V23z</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Partially checked</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_range_selection">Start date selection: %1$s – End date selection: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">none</string>
+    <string name="mtrl_picker_cancel">Cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">End date %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigate to current year %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$d</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_start_date_description">Start date %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Today %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to Calendar view</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to year view</string>
+    <string name="mtrl_switch_thumb_group_name">circle_group</string>
+    <string name="mtrl_switch_thumb_path_checked">M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16</string>
+    <string name="mtrl_switch_thumb_path_morphing">M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16</string>
+    <string name="mtrl_switch_thumb_path_name">circle</string>
+    <string name="mtrl_switch_thumb_path_pressed">M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16</string>
+    <string name="mtrl_switch_thumb_path_unchecked">M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16</string>
+    <string name="mtrl_switch_track_decoration_path">M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16</string>
+    <string name="mtrl_switch_track_path">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
+    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="my_account">My Account</string>
+    <string name="network_settings">Optimize Internet &amp; Ping</string>
+    <string name="next">Next</string>
+    <string name="no_tick">No Tick</string>
+    <string name="not_set">Not set</string>
+    <string name="notice_access_usage">Please enable Usage Access permission</string>
+    <string name="notice_audio_record_desc">To record internal audio, we require permission to access audio recording. If you do not grant the required permission, the video may be recorded without sound!</string>
+    <string name="notice_audio_record_short">We recommend enabling this permission</string>
+    <string name="notice_audio_record_title">Audio record permission</string>
+    <string name="notice_saved_changes">Changes applied successfully</string>
+    <string name="notice_soon">Coming soon</string>
+    <string name="notice_wait">Please wait</string>
+    <string name="notif_booster_title">X Game Booster is running</string>
+    <string name="notif_recorder_desc">Click here to stop recording</string>
+    <string name="notif_recorder_title">X Game Booster is recording…</string>
+    <string name="notif_text_deactivate">Deactivate</string>
+    <string name="notif_text_screen_record_end">Stop Record</string>
+    <string name="notif_text_screen_record_start">Screen Record</string>
+    <string name="opt_aim_assist">Aim Assist</string>
+    <string name="opt_auto_run_game">Auto Run Game</string>
+    <string name="opt_configure_before_boost">Configure Before Boost</string>
+    <string name="opt_cpu_optimization">CPU Optimization</string>
+    <string name="opt_desc_aim_assist">Show a crosshair at the center of the screen while gaming to improve aiming in FPS games</string>
+    <string name="opt_desc_auto_run_game">The game will launch automatically once the system is fully boosted</string>
+    <string name="opt_desc_configure_before_boost">Review settings before initiating game boost</string>
+    <string name="opt_desc_cpu_optimization">Improve device performance by optimizing CPU usage and limiting background processes</string>
+    <string name="opt_desc_dnd_mode">Block distracting notifications while boosting or gaming to stay focused and lag-free</string>
+    <string name="opt_desc_enable_dns">Switch to a high-performance DNS to reduce ping and avoid lag in online games</string>
+    <string name="opt_desc_gaming_server">Experience faster response &amp; ping optimization</string>
+    <string name="opt_desc_hud_mode">Show live ping, FPS, and system stats over your game screen for real-time monitoring</string>
+    <string name="opt_desc_language">Application user interface language</string>
+    <string name="opt_desc_notification">Display a notification while boosting to keep you informed</string>
+    <string name="opt_desc_prefetch_dns">Improve your ping by DNS caching before start game</string>
+    <string name="opt_desc_ram_optimization">Limits excessive RAM usage by closing unused background apps to boost performance</string>
+    <string name="opt_desc_restrict_network">Block other apps from using network to reduce lag and stabilize your ping</string>
+    <string name="opt_desc_traffic_compression">Reduce data usage by compressing network traffic. This can help save bandwidth and improve overall connection performance</string>
+    <string name="opt_dnd_mode">Do Not Disturb Mode</string>
+    <string name="opt_enable_dns">Use DNS</string>
+    <string name="opt_gaming_server">Gaming Server</string>
+    <string name="opt_hud_mode">HUD Mode</string>
+    <string name="opt_language">Language</string>
+    <string name="opt_notification">Notification</string>
+    <string name="opt_prefetch_dns">Prefetch Domain Names</string>
+    <string name="opt_ram_optimization">RAM Optimization</string>
+    <string name="opt_restrict_network">Restrict Network Usage</string>
+    <string name="opt_traffic_compression">Traffic Compression</string>
+    <string name="option_basic">Basic Mode</string>
+    <string name="option_vip">Premium Mode</string>
+    <string name="order_now">Order now</string>
+    <string name="password">Password</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="percent_10">%10</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="ping_enhancement">Ping enhancement tools</string>
+    <string name="plan_basic">Basic Plan</string>
+    <string name="plan_premium">Premium Plan</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="premium">Premium</string>
+    <string name="premium_features">Premium Features</string>
+    <string name="privacy_policy">" Your privacy is very important to us. This Privacy Policy explains how X Game Booster (we, us, or our) collects, uses, and protects any information that you provide when using our mobile application.
+ 
+ 1. Information We Collect
+ X Game Booster does not collect personal identification information such as your name, address, phone number, or email. However, the app may collect non-personal technical data from your device, such as device model, operating system version, and performance metrics, to optimize your gaming experience.
+ 
+ 2. Use of Information
+ The information collected is used solely to improve the app’s performance and provide a better gaming experience. We do not sell, trade, or rent your information to third parties.
+ 
+ 3. Permissions
+ To function effectively, X Game Booster may request certain permissions, including access to device storage, system settings, and running applications. These permissions are only used to enhance game performance and are not used for any unauthorized activities.
+ 
+ 4. Data Security
+ We are committed to ensuring that your information is secure. We implement appropriate technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction.
+ 
+ 5. Third-Party Services and Advertisements
+ X Game Booster may include third-party services or advertisements to support our app. These third parties have their own privacy policies, and we recommend reviewing them as we have no control over their content or practices.
+ 
+ 6. Children’s Privacy
+ Our app does not have a specific age rating and can be used by users of all ages. However, we do not knowingly collect any personal information from children under the age of 13. If we become aware that such information has been collected inadvertently, we will take steps to delete it promptly.
+ 
+ 7. Changes to This Privacy Policy
+ We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with an updated revision date. We encourage you to review this policy periodically.
+ 
+ 8. Contact Us
+ If you have any questions or concerns about this Privacy Policy or how your data is handled, please contact us at bytecycleorg@gmail.com.
+ 
+ By using X Game Booster, you acknowledge that you have read, understood, and agreed to this Privacy Policy. "</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="private_net_service">Private network service</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="project_id">x-game-booster-app</string>
+    <string name="purchase">Purchase</string>
+    <string name="purchase_date">Purchase Date : %1$s</string>
+    <string name="purchase_success">"Your purchase was successful and your premium plan is now active!
+We need to restart the app once to unlock all premium features!"</string>
+    <string name="purchase_success_title">"You're Now Premium"</string>
+    <string name="ram">RAM %1$s</string>
+    <string name="ram_simple">RAM</string>
+    <string name="ram_used">%1$.1f / %2$.1f GB</string>
+    <string name="rate_app">Rate App</string>
+    <string name="recommended">Recommended</string>
+    <string name="record_settings">Record Settings</string>
+    <string name="registration_date">Registration Date : %1$s</string>
+    <string name="require_premium_error">This feature requires a premium plan</string>
+    <string name="reset">Reset</string>
+    <string name="retry">Retry</string>
+    <string name="rocket">Rocket</string>
+    <string name="s_battery">Battery</string>
+    <string name="s_ram">RAM</string>
+    <string name="s_storage">Storage</string>
+    <string name="screen_recorder">Screen Recorder</string>
+    <string name="search_menu_title">Search</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="searchview_clear_text_content_description">Clear text</string>
+    <string name="searchview_navigation_content_description">Back</string>
+    <string name="see_plan_features">See full plan features</string>
+    <string name="select_dns_for_u">Choose game-optimized DNS</string>
+    <string name="server_region">Server region:</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="share_app_message">Boost your game performance with X Game Booster! Download now and level up your play :) 🎮🔥 %1$s</string>
+    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_to_account">Sign In To Your Account</string>
+    <string name="size">Size</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage">Storage %1$s</string>
+    <string name="storage_simple">Storage</string>
+    <string name="storage_used">%1$d / %2$d GB</string>
+    <string name="sub1m">1 Month / 189,000 IRT</string>
+    <string name="sub2m">2 Month / 379,000 IRT</string>
+    <string name="sub3m">3 Month / 511,000 IRT</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="support">Support</string>
+    <string name="support_email">bytecycleorg@gmail.com</string>
+    <string name="support_subject">Need Support: X Game Booster</string>
+    <string name="telegram_channel">Telegram Channel</string>
+    <string name="term_of_service">" Last Updated: July 4, 2025
+ 
+ By installing, accessing, or using the X Game Booster application (the App), developed by Byte Cycle, you agree to be bound by the following Terms of Service. Please read them carefully before using the App.
+ 
+ 1. About the App
+ X Game Booster is a mobile optimization tool designed to enhance gaming performance by freeing up system resources and reducing background usage.
+ 
+ 2. Permitted Use
+ You may use this App for personal, non-commercial purposes only. Unauthorized use, including reverse engineering, redistribution, or modification, is strictly prohibited.
+ 
+ 3. In-App Purchases
+ The App may offer optional in-app purchases to unlock premium features.
+ - All purchases are processed securely through a payment gateway.
+ - Purchases are non-refundable unless required by applicable law.
+ - Users must ensure valid and authorized payment methods.
+ 
+ 4. User Responsibility
+ While X Game Booster optimizes performance, results may vary based on device specs, system condition, or third-party software. Byte Cycle is not responsible for device damage, performance issues, or data loss caused by misuse or third-party interference.
+ 
+ 5. Privacy
+ We take your privacy seriously. Data collected (if any) is only used to improve the app. No personal data is sold or shared without consent. See our Privacy Policy for more.
+ 
+ 6. Updates and Changes
+ We may update these Terms or app features at any time. Continued use of the App after changes means you accept the new terms.
+ 
+ 7. Termination
+ We reserve the right to suspend or terminate access to the App at any time if you violate these Terms.
+ 
+ 8. Intellectual Property
+ All content, design, and code in X Game Booster are the property of Byte Cycle and protected by copyright and trademark laws.
+ 
+ 9. Copyright Notice
+ © 2025 Byte Cycle. All rights reserved.
+ 
+ 10. Contact Us
+ For support or inquiries, contact us at: bytecycleorg@gmail.com
+ 
+ By using the App, you confirm that you have read, understood, and accepted these Terms of Service. "</string>
+    <string name="terms_of_service_title">Terms of Service</string>
+    <string name="tick">Tick</string>
+    <string name="tool_aim_assist">Aim Assist</string>
+    <string name="tool_chat">Game Chat</string>
+    <string name="tool_hud">Performance Info</string>
+    <string name="tool_recorder">Screen Recorder</string>
+    <string name="tools">Tools</string>
+    <string name="tools_recorder_audio_channel_mono">Mono</string>
+    <string name="tools_recorder_audio_channel_stereo">Stereo</string>
+    <string name="tools_recorder_audio_source_internal">Internal</string>
+    <string name="tools_recorder_audio_source_mic">Microphone</string>
+    <string name="tools_recorder_audio_source_mix">Mix</string>
+    <string name="tools_recorder_audio_source_none">None</string>
+    <string name="tools_recorder_help">To start screen recording, you need to select the “Screen Record” option in the app’s notification after boosting.</string>
+    <string name="tools_recorder_video_quality_high">High</string>
+    <string name="tools_recorder_video_quality_low">Low</string>
+    <string name="tools_recorder_video_quality_medium">Medium</string>
+    <string name="tools_recorder_video_quality_ultra">Ultra</string>
+    <string name="tools_recorder_video_quality_veryhigh">Very High</string>
+    <string name="try_now">Try now</string>
+    <string name="try_premium">Try Premium Boost</string>
+    <string name="try_premium_info">Unlock all boost features for maximum performance</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="upgrade_plan">Upgrade Plan</string>
+    <string name="upgrade_to_premium">Upgrade To Premium</string>
+    <string name="user_basic_badge">BASIC</string>
+    <string name="user_premium_badge">PREMIUM</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="vpn_permission_denied_error">VPN access was denied!</string>
+</resources>

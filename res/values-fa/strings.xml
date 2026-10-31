@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_new">جدید</string>
+    <string name="abc_action_bar_home_description">پیمایش به صفحه اصلی</string>
+    <string name="abc_action_bar_up_description">رفتن به بالا</string>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="abc_action_mode_done">تمام</string>
+    <string name="abc_activity_chooser_view_see_all">دیدن همه</string>
+    <string name="abc_activitychooserview_choose_application">انتخاب برنامه</string>
+    <string name="abc_capital_off">خاموش</string>
+    <string name="abc_capital_on">روشن</string>
+    <string name="abc_menu_alt_shortcut_label">‎Alt+‎</string>
+    <string name="abc_menu_ctrl_shortcut_label">‎Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">حذف</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">‎Function+‎</string>
+    <string name="abc_menu_meta_shortcut_label">‎Meta+‎</string>
+    <string name="abc_menu_shift_shortcut_label">‎Shift+‎</string>
+    <string name="abc_menu_space_shortcut_label">فاصله</string>
+    <string name="abc_menu_sym_shortcut_label">‎Sym+‎</string>
+    <string name="abc_prepend_shortcut_label">منو+</string>
+    <string name="abc_search_hint">جستجو…‏</string>
+    <string name="abc_searchview_description_clear">پاک کردن پُرسمان</string>
+    <string name="abc_searchview_description_query">درخواست جستجو</string>
+    <string name="abc_searchview_description_search">جستجو</string>
+    <string name="abc_searchview_description_submit">ارسال پُرسمان</string>
+    <string name="abc_searchview_description_voice">جستجوی گفتاری</string>
+    <string name="abc_shareactionprovider_share_with">هم‌رسانی با</string>
+    <string name="abc_shareactionprovider_share_with_application">هم‌رسانی با %s</string>
+    <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string name="accept">قبول کردن</string>
+    <string name="account_type">نوع حساب</string>
+    <string name="activate">فعال سازی</string>
+    <string name="active_plan">فعال</string>
+    <string name="advance_settings">تنظیمات بیشتر</string>
+    <string name="alpha">شفافیت</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">گذرواژه</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">گذرکلید</string>
+    <string name="app">برنامه</string>
+    <string name="app_name">ایکس گیم بوستر</string>
+    <string name="apply">اعمال تغییرات</string>
+    <string name="audio_channel">چنل صدا</string>
+    <string name="audio_quality">کیفیت صدا</string>
+    <string name="audio_source">منبع صدای ورودی</string>
+    <string name="back">بازگشت</string>
+    <string name="battery">باتری %1$s</string>
+    <string name="battery_simple">باتری</string>
+    <string name="battery_temp">%1$.1f °C</string>
+    <string name="boost">تقویت</string>
+    <string name="boost_plan">نوع تقویت</string>
+    <string name="boost_settings">نوع تقویت</string>
+    <string name="boosting">درحال تقویت کردن…</string>
+    <string name="bottomsheet_action_collapse">جمع کردن برگ زیرین</string>
+    <string name="bottomsheet_action_expand">ازهم بازکردن برگ زیرین</string>
+    <string name="bottomsheet_action_expand_halfway">گسترده کردن تا نیمه</string>
+    <string name="bottomsheet_drag_handle_clicked">روی دستگیره کشاندن دوضربه زده شد</string>
+    <string name="bottomsheet_drag_handle_content_description">دستگیره کشاندن</string>
+    <string name="call_notification_answer_action">پاسخ دادن</string>
+    <string name="call_notification_answer_video_action">ویدیو</string>
+    <string name="call_notification_decline_action">رد کردن</string>
+    <string name="call_notification_hang_up_action">قطع تماس</string>
+    <string name="call_notification_incoming_text">تماس ورودی</string>
+    <string name="call_notification_ongoing_text">تماس درحال انجام</string>
+    <string name="call_notification_screening_text">درحال غربال کردن تماس ورودی</string>
+    <string name="cancel">انصراف</string>
+    <string name="character_counter_content_description">نویسه‌های واردشده %1$d از %2$d</string>
+    <string name="character_counter_overflowed_content_description">محدودیت نویسه از حد مجاز %1$d از %2$d بیشتر شده است</string>
+    <string name="choose_games">انتخاب بازی ها</string>
+    <string name="clear_text_end_icon_content_description">پاک کردن نوشتار</string>
+    <string name="color">رنگ</string>
+    <string name="common_google_play_services_enable_button">فعال کردن</string>
+    <string name="common_google_play_services_enable_text">‏تا وقتی «خدمات Google Play» را فعال نکنید، %1$s کار نمی‌کند.</string>
+    <string name="common_google_play_services_enable_title">‏‫فعال کردن «خدمات Google Play»</string>
+    <string name="common_google_play_services_install_button">نصب</string>
+    <string name="common_google_play_services_install_text">‏%1$s بدون خدمات Google Play که در دستگاه شما وجود ندارد اجرا نمی‌شود.</string>
+    <string name="common_google_play_services_install_title">‏دریافت «خدمات Google Play»</string>
+    <string name="common_google_play_services_notification_channel_name">‏دردسترس بودن خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطا در خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید.</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s بدون خدمات Google Play که در دستگاه شما پشتیبانی نمی‌شود، اجرا نخواهد شد.</string>
+    <string name="common_google_play_services_update_button">به‌روزرسانی</string>
+    <string name="common_google_play_services_update_text">‏تاز مانی که «خدمات Google Play» را به‌روزرسانی نکنید، %1$s اجرا نمی‌شود.</string>
+    <string name="common_google_play_services_update_title">‏‫به‌روزرسانی «خدمات Google Play»</string>
+    <string name="common_google_play_services_updating_text">‏%1$s بدون «خدمات Google Play» که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند.</string>
+    <string name="common_google_play_services_wear_update_text">‏نسخه جدید «خدمات Google Play» نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود.</string>
+    <string name="common_open_on_phone">باز کردن در تلفن</string>
+    <string name="common_signin_button_text">ورود به سیستم</string>
+    <string name="common_signin_button_text_long">‏ورود به سیستم با Google‎</string>
+    <string name="continue_t">ادامه</string>
+    <string name="continue_with_google">ورود از طریق گوگل</string>
+    <string name="copy">کپی</string>
+    <string name="copy_toast_msg">پیوند در بریده‌دان کپی شد</string>
+    <string name="crosshair">نشانه</string>
+    <string name="deactive">غیرفعال کردن</string>
+    <string name="default_storage_notice">پر بودن حافظه دستگاه میتواند عملکرد پردازنده گرافیکی را مختل کند و باعث افت FPS شود!</string>
+    <string name="dialog_accept">قبول کردن</string>
+    <string name="dialog_gateway_error_desc_bazaar">ما از درگاه پرداخت بازار استفاده میکنیم که ظاهرا روی گوشی شما نصب نشده است! لطفا ابتدا برنامه بازار را نصب کنید و به حساب خود در بازار نیز وارد شوید سپس برای ارتقاء به پرمیوم اقدام نمایید</string>
+    <string name="dialog_gateway_error_desc_myket">ما از درگاه پرداخت مایکت استفاده میکنیم که ظاهرا روی گوشی شما نصب نشده است! لطفا ابتدا برنامه مایکت را نصب کنید و به حساب خود در مایکت نیز وارد شوید سپس برای ارتقاء به پرمیوم اقدام نمایید</string>
+    <string name="dialog_gateway_error_title">نتوانستیم به درگاه پرداخت متصل شویم!</string>
+    <string name="dialog_ipg_cancel_desc">آیا مطمئن هستید که می‌خواهید خرید را لغو کنید؟</string>
+    <string name="dialog_ipg_cancel_title">لغو خرید</string>
+    <string name="dialog_notification_permission_desc">برای عملکرد صحیح برنامه، لطفاً دسترسی ارسال نوتیفیکیشن را فعال کنید. این مجوز به ما کمک می‌کند تا سرویس‌های پس‌زمینه بدون اختلال اجرا شوند و تجربه کاربری بهتری ارائه شود.</string>
+    <string name="dialog_notification_permission_title">نیاز به دسترسی اعلان</string>
+    <string name="dialog_reject">رد کردن</string>
+    <string name="dialog_require_login_desc">برای خرید حساب پریمیوم، باید وارد حساب کاربری خود شوید. لطفاً ابتدا وارد حساب خود شوید و سپس فرآیند ارتقا به پریمیوم را ادامه دهید.</string>
+    <string name="dialog_require_login_title">نیازمند ورود به حساب خود</string>
+    <string name="dialog_update_desc">سریع‌تر، بهتر و پر از امکانات جدید! آماده‌ای برای به‌روزرسانی؟ برای ادامه باید برنامه رو بروزرسانی کنی</string>
+    <string name="dialog_update_title">نسخه جدید رسید</string>
+    <string name="dialog_usage_permission_desc">Enable usage access to manage background processes during gaming.</string>
+    <string name="dialog_usage_permission_title">Why we need usage access?</string>
+    <string name="disable">غیرفعال کردن</string>
+    <string name="discount">تخفیف</string>
+    <string name="disturb_mode_while_game">حالت مزاحم نشو هنگام بازی</string>
+    <string name="edit">خروج</string>
+    <string name="email">ایمیل</string>
+    <string name="error_a11y_label">خطا: نامعتبر</string>
+    <string name="error_audio_record_failed">دسترسی به ضبط صدا داده نشد! ویدیو بدون صدا ضبط خواهد شد</string>
+    <string name="error_bazaar_not_detect">برنامه بازار پیدا نشد لطفا ابتدا آنرا نصب یا اجرا نمایید.</string>
+    <string name="error_forbidden">دسترسی غیرمجاز!</string>
+    <string name="error_gateway_init">نتوانستیم به درگاه پرداخت متصل شویم!</string>
+    <string name="error_icon_content_description">خطا</string>
+    <string name="error_login_not_support">در حال حاضر فقط امکان ورود با گوگل در دسترس است</string>
+    <string name="error_no_internet">امکان دسترسی به اینترنت نیست!</string>
+    <string name="error_no_internet_desc">نتوانستیم به اینترنت متصل شویم! لطفا از اتصال موبایل خود به اینترنت اطمینان حاصل کنید سپس دکمه سعی مجدد را بزنید</string>
+    <string name="error_no_internet_title">خطای شبکه</string>
+    <string name="error_permission_denied">دسترسی رد شد!</string>
+    <string name="error_unknown">خطای ناشناخته!</string>
+    <string name="error_when_purchase">خطای ناشناخته موقع ارتقای حساب!</string>
+    <string name="error_while_get_package">خطا موقع دریافت برنامه ها!</string>
+    <string name="example">مثال:</string>
+    <string name="expand">بزرگ نمایی</string>
+    <string name="expand_button_title">پیشرفته</string>
+    <string name="expiration_date">تاریخ انقضاء : %1$s</string>
+    <string name="exposed_dropdown_menu_content_description">نمایش منوی کرکره‌ای</string>
+    <string name="fallback_menu_item_copy_link">کپی پیوند</string>
+    <string name="fallback_menu_item_open_in_browser">بازکردن در مرورگر</string>
+    <string name="fallback_menu_item_share_link">هم‌رسانی پیوند</string>
+    <string name="fps">FPS</string>
+    <string name="fps_settings">بهینه سازی FPS</string>
+    <string name="game_icon">آیکن بازی</string>
+    <string name="game_pad">دسته بازی</string>
+    <string name="games_list_title">بازی های من</string>
+    <string name="gift_desc">تخفیف ویژه ۱۰٪ روی اکانت پرمیوم ۳ ماهه فقط برای شما. این فرصت رو از دست نده!</string>
+    <string name="gift_title">یک پیشنهاد ویژه برای شما!</string>
+    <string name="go_boost">اجرا</string>
+    <string name="google">گوگل</string>
+    <string name="help">راهنما</string>
+    <string name="i_agree">قبول دارم</string>
+    <string name="icon_content_description">نماد کادر گفتگو</string>
+    <string name="ignore">رد کردن</string>
+    <string name="include_basic_features">شامل تمام قابلیت‌های پایه</string>
+    <string name="instaram_channel">اینستاگرام ما</string>
+    <string name="ipg_title">درگاه پرداخت</string>
+    <string name="item_view_role_description">برگه</string>
+    <string name="letsgo">برو بریم</string>
+    <string name="login_privacy_accept_notice">با وارد شدن یا ساخت حساب شما تایید میکنید که با تمامی شرایط و مقررات برنامه موافقت کامل دارید.</string>
+    <string name="logout">خروج از حساب</string>
+    <string name="material_clock_toggle_content_description">انتخاب .ق.ظ. یا ب.ظ.</string>
+    <string name="material_hour_24h_suffix">%1$s ساعت</string>
+    <string name="material_hour_selection">انتخاب ساعت</string>
+    <string name="material_hour_suffix">ساعت %1$s</string>
+    <string name="material_minute_selection">انتخاب دقیقه</string>
+    <string name="material_minute_suffix">%1$s دقیقه</string>
+    <string name="material_timepicker_am">ق.ظ</string>
+    <string name="material_timepicker_clock_mode_description">برای وارد کردن زمان، به حالت ساعت تغییر وضعیت دهید.</string>
+    <string name="material_timepicker_hour">ساعت</string>
+    <string name="material_timepicker_minute">دقیقه</string>
+    <string name="material_timepicker_pm">ب.ظ</string>
+    <string name="material_timepicker_select_time">انتخاب زمان</string>
+    <string name="material_timepicker_text_input_mode_description">برای وارد کردن زمان، به حالت ورودی نوشتاری تغییر وضعیت دهید.</string>
+    <string name="max_fps">پایداری حداکثری نرخ فریم (FPS)</string>
+    <string name="menu">منو</string>
+    <string name="msg_login_success">خوش آمدی %1$s</string>
+    <string name="mtrl_badge_numberless_content_description">اعلان جدید</string>
+    <string name="mtrl_checkbox_state_description_checked">دارای علامت</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">برخی موارد علامت دارند</string>
+    <string name="mtrl_checkbox_state_description_unchecked">بدون علامت</string>
+    <string name="mtrl_chip_close_icon_content_description">برداشتن %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">بیش از %1$d اعلان جدید</string>
+    <string name="mtrl_picker_a11y_next_month">تغییر به ماه بعدی</string>
+    <string name="mtrl_picker_a11y_prev_month">تغییر به ماه قبلی</string>
+    <string name="mtrl_picker_announce_current_range_selection">تاریخ شروع انتخاب‌شده: %1$s – تاریخ پایان انتخاب‌شده: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">انتخاب کنونی: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">خالی</string>
+    <string name="mtrl_picker_cancel">لغو</string>
+    <string name="mtrl_picker_confirm">تأیید</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">انتخاب تاریخ</string>
+    <string name="mtrl_picker_date_header_unselected">تاریخ انتخابی</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">تاریخ پایان: %1$s</string>
+    <string name="mtrl_picker_invalid_format">قالب نامعتبر است.</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">قالب: %1$s</string>
+    <string name="mtrl_picker_invalid_range">محدوده نامعتبر است.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">پیمایش به سال فعلی %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">رفتن به سال %1$d</string>
+    <string name="mtrl_picker_out_of_range">خارج از محدوده: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاریخ شروع – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاریخ پایان</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">انتخاب محدوده</string>
+    <string name="mtrl_picker_range_header_unselected">تاریخ شروع – تاریخ پایان</string>
+    <string name="mtrl_picker_save">ذخیره</string>
+    <string name="mtrl_picker_start_date_description">تاریخ شروع: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">تاریخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاریخ پایان</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاریخ شروع</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">امروز %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">رفتن به روش ورودی تقویم</string>
+    <string name="mtrl_picker_toggle_to_day_selection">برای رفتن به نمای «تقویم» ضربه بزنید</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">رفتن به حالت ورودی نوشتاری</string>
+    <string name="mtrl_picker_toggle_to_year_selection">برای رفتن به نمای سال ضربه بزنید</string>
+    <string name="mtrl_timepicker_cancel">لغو</string>
+    <string name="mtrl_timepicker_confirm">تأیید</string>
+    <string name="my_account">حساب من</string>
+    <string name="network_settings">بهینه سازی اینترنت و پینگ</string>
+    <string name="next">ادامه</string>
+    <string name="no_tick">تیک نخورده</string>
+    <string name="not_set">تنظیم نشده</string>
+    <string name="notice_access_usage">لطفاً برنامه را در لیست پیدا کرده و دسترسی Usage Access را فعال کنید</string>
+    <string name="notice_audio_record_desc">برای ضبط صدای داخلی، ما نیازمند دسترسی به ضبط صدا هستیم. در صورتی که این دسترسی را ندهید، ممکن است ویدیو بدون صدا ضبط شود!</string>
+    <string name="notice_audio_record_short">پیشنهاد می‌کنیم این دسترسی را فعال کنید</string>
+    <string name="notice_audio_record_title">دسترسی ضبط صدا</string>
+    <string name="notice_saved_changes">تغییرات باموفقیت اعمال شد</string>
+    <string name="notice_soon">به زودی…</string>
+    <string name="notice_wait">لطفا کمی صبر نمایید</string>
+    <string name="notif_booster_title">ایکس گیم بوستر فعال است</string>
+    <string name="notif_recorder_desc">برای توقف ضبط همینجا را کلیک کنید</string>
+    <string name="notif_recorder_title">ایکس گیم بوستر در حال ضبط صفحه است…</string>
+    <string name="notif_text_deactivate">خروج</string>
+    <string name="notif_text_screen_record_end">اتمام ضبط</string>
+    <string name="notif_text_screen_record_start">ضبط صفحه</string>
+    <string name="opt_aim_assist">دستیار نشانه‌گیری</string>
+    <string name="opt_auto_run_game">اجرای خودکار بازی</string>
+    <string name="opt_configure_before_boost">پیکربندی قبل از شروع</string>
+    <string name="opt_cpu_optimization">بهینه‌سازی پردازنده (CPU)</string>
+    <string name="opt_desc_aim_assist">نمایش یک نشانه در مرکز صفحه هنگام بازی برای بهبود نشانه‌گیری در بازی‌های تیراندازی (FPS)</string>
+    <string name="opt_desc_auto_run_game">پس از پایان عملیات بهینه‌سازی، بازی به‌صورت خودکار اجرا خواهد شد</string>
+    <string name="opt_desc_configure_before_boost">پیش از آغاز بهینه‌سازی بازی، تنظیمات را مرور کنید</string>
+    <string name="opt_desc_cpu_optimization">عملکرد دستگاه را با مدیریت مصرف CPU و کاهش فرآیندهای پس‌زمینه بهبود دهید</string>
+    <string name="opt_desc_dnd_mode">با مسدود کردن اعلان‌های مزاحم حین افزایش عملکرد یا بازی، تمرکز و پایداری را حفظ کنید</string>
+    <string name="opt_desc_enable_dns">با استفاده از نام دامنه پرسرعت، پینگ را کاهش داده و از لگ در بازی‌های آنلاین جلوگیری کنید</string>
+    <string name="opt_desc_gaming_server">تجربه پاسخ‌دهی سریع‌تر با بهینه‌سازی پینگ</string>
+    <string name="opt_desc_hud_mode">نمایش پینگ، نرخ فریم (FPS) و اطلاعات سیستمی در لحظه حین اجرای بازی</string>
+    <string name="opt_desc_language">زبان برنامه</string>
+    <string name="opt_desc_notification">نمایش اعلان هنگام بهینه‌سازی برای اطلاع‌رسانی به کاربر</string>
+    <string name="opt_desc_prefetch_dns">با کش کردن دامنه های بازی پیش از اجرای بازی، پینگ خود را بهبود دهید</string>
+    <string name="opt_desc_ram_optimization">با بستن برنامه‌های پس‌زمینه‌ی غیرضروری، استفاده‌ی بیش از حد از رم را محدود کرده و عملکرد را افزایش دهید</string>
+    <string name="opt_desc_restrict_network">با جلوگیری از مصرف شبکه توسط سایر برنامه‌ها، لگ را کاهش و پینگ را پایدار کنید</string>
+    <string name="opt_desc_traffic_compression">با فشرده‌سازی ترافیک شبکه، مصرف اینترنت را کاهش دهید و عملکرد اتصال را بهبود بخشید</string>
+    <string name="opt_dnd_mode">حالت مزاحم نشو</string>
+    <string name="opt_enable_dns">فعال‌سازی DNS</string>
+    <string name="opt_gaming_server">سرور گیمینگ</string>
+    <string name="opt_hud_mode">پنجره شناور اطلاعات دستگاه</string>
+    <string name="opt_language">زبان</string>
+    <string name="opt_notification">اعلان</string>
+    <string name="opt_prefetch_dns">پیش‌بارگذاری دامنه‌ها</string>
+    <string name="opt_ram_optimization">بهینه‌سازی رم</string>
+    <string name="opt_restrict_network">محدودسازی استفاده از شبکه</string>
+    <string name="opt_traffic_compression">فشرده‌سازی ترافیک</string>
+    <string name="option_basic">حالت پایه</string>
+    <string name="option_vip">حالت پرمیوم</string>
+    <string name="order_now">ثبت سفارش</string>
+    <string name="password">رمز</string>
+    <string name="password_toggle_content_description">نمایش گذرواژه</string>
+    <string name="percent_10">۱۰٪</string>
+    <string name="personal_details">اطلاعات شخصی</string>
+    <string name="ping_enhancement">ابزارهای بهبود پینگ</string>
+    <string name="plan_basic">حساب پایه</string>
+    <string name="plan_premium">حساب پرمیوم</string>
+    <string name="preference_copied">«%1$s» در بریده‌دان کپی شد.</string>
+    <string name="premium">پرمیوم</string>
+    <string name="premium_features">امکانات پرمیوم</string>
+    <string name="privacy_policy">" حریم خصوصی شما برای ما بسیار مهم است. این سیاست حفظ حریم خصوصی توضیح می‌دهد که چگونه X Game Booster (ما) اطلاعات شما را هنگام استفاده از این برنامه جمع‌آوری، استفاده و محافظت می‌کند.
+ 
+ 1. اطلاعاتی که جمع‌آوری می‌کنیم
+ X Game Booster اطلاعات شناسایی شخصی مانند نام، آدرس، شماره تلفن یا ایمیل شما را جمع‌آوری نمی‌کند. با این حال، ممکن است داده‌های فنی غیرشخصی مانند مدل دستگاه، نسخه سیستم‌عامل و شاخص‌های عملکرد برای بهینه‌سازی تجربه بازی جمع‌آوری شود.
+ 
+ 2. نحوه استفاده از اطلاعات
+ اطلاعات جمع‌آوری‌شده فقط برای بهبود عملکرد برنامه و ارائه تجربه بهتر بازی استفاده می‌شود. ما اطلاعات شما را به اشخاص ثالث نمی‌فروشیم، معامله نمی‌کنیم یا اجاره نمی‌دهیم.
+ 
+ 3. مجوزها
+ برای عملکرد بهتر، X Game Booster ممکن است مجوزهایی مانند دسترسی به فضای ذخیره‌سازی، تنظیمات سیستم و برنامه‌های در حال اجرا را درخواست کند. این مجوزها تنها برای بهبود عملکرد بازی استفاده می‌شوند و در فعالیت‌های غیرمجاز استفاده نمی‌گردند.
+ 
+ 4. امنیت اطلاعات
+ ما متعهد به محافظت از اطلاعات شما هستیم و تدابیر فنی و سازمانی مناسبی برای جلوگیری از دسترسی غیرمجاز، تغییر، افشا یا تخریب اطلاعات شما اتخاذ کرده‌ایم.
+ 
+ 5. خدمات و تبلیغات شخص ثالث
+ X Game Booster ممکن است شامل خدمات یا تبلیغات اشخاص ثالث باشد. این طرف‌ها سیاست‌های حفظ حریم خصوصی مخصوص به خود را دارند و ما مسئولیتی در قبال محتوای یا عملکرد آن‌ها نداریم.
+ 
+ 6. حریم خصوصی کودکان
+ این برنامه دارای رده‌سنی مشخصی نیست و برای استفاده افراد در تمام گروه‌های سنی طراحی شده است. با این حال، ما به‌صورت آگاهانه هیچ‌گونه اطلاعات شخصی از کودکان زیر ۱۳ سال جمع‌آوری نمی‌کنیم. در صورتی که مطلع شویم اطلاعاتی از این گروه سنی به‌اشتباه جمع‌آوری شده است، در اسرع وقت برای حذف آن اقدام خواهیم کرد.
+ 
+ 7. تغییرات در این سیاست
+ ما این حق را داریم که هر زمان سیاست حفظ حریم خصوصی را به‌روزرسانی کنیم. تغییرات در همین صفحه منتشر می‌شوند و توصیه می‌کنیم به صورت دوره‌ای آن را بررسی کنید.
+ 
+ 8. تماس با ما
+ در صورت داشتن سوال یا نگرانی درباره این سیاست یا نحوه رسیدگی به داده‌های شما، لطفاً با ما از طریق ایمیل bytecycleorg@gmail.com تماس بگیرید.
+ 
+ با استفاده از X Game Booster، شما تایید می‌کنید که این سیاست را خوانده، درک کرده و با آن موافقت کرده‌اید. "</string>
+    <string name="privacy_policy_title">حریم خصوصی</string>
+    <string name="private_net_service">سرویس شبکه خصوصی</string>
+    <string name="profile_picture">عکس پروفایل</string>
+    <string name="purchase">خرید</string>
+    <string name="purchase_date">تاریخ خرید : %1$s</string>
+    <string name="purchase_success">خرید شما باموفقیت انجام شد. از اینکه به جامعه پرمیوم پیوستید سپاسگذاریم. برای فعال شدن تمامی امکانات میبایست برنامه یکبار مجدد راه اندازی شود</string>
+    <string name="purchase_success_title">تبریک! به جامعه پرمیوم خوش آمدید</string>
+    <string name="ram">رم %1$s</string>
+    <string name="ram_simple">رم</string>
+    <string name="ram_used">%1$.1f / %2$.1f GB</string>
+    <string name="rate_app">امتیاز به برنامه</string>
+    <string name="recommended">پیشنهادی</string>
+    <string name="record_settings">تنظیمات ضبط</string>
+    <string name="registration_date">تاریخ ثبت نام : %1$s</string>
+    <string name="require_premium_error">برای استفاده از این امکان باید حساب پرمیوم داشته باشید</string>
+    <string name="reset">ریست</string>
+    <string name="retry">سعی مجدد</string>
+    <string name="rocket">موشک</string>
+    <string name="s_battery">باتری</string>
+    <string name="s_ram">رم</string>
+    <string name="s_storage">حافظه</string>
+    <string name="screen_recorder">ضبط صفحه نمایش</string>
+    <string name="search_menu_title">جستجو</string>
+    <string name="searchview_clear_text_content_description">پاک کردن نوشتار</string>
+    <string name="searchview_navigation_content_description">برگشتن</string>
+    <string name="see_plan_features">مشاهده تمامی امکانات حساب</string>
+    <string name="select_dns_for_u">انتخاب DNS بهینه برای بازی</string>
+    <string name="server_region">ریجن سرور:</string>
+    <string name="settings">تنظیمات</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="share_app_message">سلام ایکس گیم بوستر رو نصب کن و با خیال راحت بازی کن :) 🎮🔥 %1$s</string>
+    <string name="side_sheet_accessibility_pane_title">برگ کناری</string>
+    <string name="sign_in">ورود</string>
+    <string name="sign_in_to_account">ورود به حساب کاربری</string>
+    <string name="size">اندازه</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage">حافظه %1$s</string>
+    <string name="storage_simple">حافظه</string>
+    <string name="storage_used">%2$d / %1$d GB</string>
+    <string name="sub1m">۱ ماه / ۱۸۹,۰۰۰ تومان</string>
+    <string name="sub2m">۲ ماه / ۳۷۹,۰۰۰ تومان</string>
+    <string name="sub3m">۳ ماه / ۵۱۱,۰۰۰ تومان</string>
+    <string name="subscriptions">اشتراک ها</string>
+    <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
+    <string name="support">پشتیبانی</string>
+    <string name="support_subject">درخواست پشتیبانی: ایکس گیم بوستر</string>
+    <string name="telegram_channel">کانال تلگرام</string>
+    <string name="term_of_service">" آخرین به‌روزرسانی: ۴ جولای ۲۰۲۵
+ 
+ با نصب، دسترسی یا استفاده از برنامه X Game Booster (برنامه) که توسط Byte Cycle توسعه داده شده، شما با شرایط زیر موافقت می‌کنید. لطفاً پیش از استفاده به‌دقت آن را مطالعه کنید.
+ 
+ 1. درباره برنامه
+ X Game Booster ابزاری برای بهینه‌سازی عملکرد بازی‌ها در موبایل است که با آزادسازی منابع سیستم و کاهش مصرف پس‌زمینه کار می‌کند.
+ 
+ 2. استفاده مجاز
+ شما فقط مجاز به استفاده شخصی و غیرتجاری از این برنامه هستید. هرگونه استفاده غیرمجاز شامل مهندسی معکوس، توزیع مجدد یا تغییر ممنوع است.
+ 
+ 3. خریدهای درون‌برنامه‌ای
+ برنامه ممکن است ویژگی‌های ویژه‌ای را از طریق خریدهای درون‌برنامه‌ای ارائه دهد.
+ - همه خریدها از طریق درگاه‌های پرداخت امن انجام می‌شوند.
+ - خریدها غیرقابل‌استرداد هستند مگر اینکه قانون خلاف آن را الزام کند.
+ - کاربران باید از روش پرداخت معتبر و مجاز استفاده کنند.
+ 
+ 4. مسئولیت کاربر
+ هرچند X Game Booster عملکرد را بهینه می‌کند، نتایج ممکن است بسته به مشخصات دستگاه، وضعیت سیستم و نرم‌افزارهای جانبی متفاوت باشد. Byte Cycle مسئول هرگونه آسیب، مشکلات عملکرد یا از دست رفتن داده ناشی از استفاده نادرست یا مداخلات نرم‌افزارهای جانبی نیست.
+ 
+ 5. حریم خصوصی
+ ما به حریم خصوصی شما اهمیت می‌دهیم. داده‌های جمع‌آوری‌شده (در صورت وجود) فقط برای بهبود برنامه استفاده می‌شوند و بدون رضایت شما به اشتراک گذاشته یا فروخته نمی‌شوند. لطفاً سیاست حفظ حریم خصوصی ما را مطالعه فرمایید.
+ 
+ 6. به‌روزرسانی‌ها و تغییرات
+ ما ممکن است هر زمان شرایط استفاده یا ویژگی‌های برنامه را تغییر دهیم. استفاده مداوم از برنامه به منزله پذیرش شرایط جدید است.
+ 
+ 7. خاتمه استفاده
+ ما این حق را داریم که در صورت نقض شرایط، دسترسی شما به برنامه را به حالت تعلیق یا خاتمه درآوریم.
+ 
+ 8. مالکیت معنوی
+ تمام محتوا، طراحی و کدهای X Game Booster متعلق به Byte Cycle بوده و تحت قوانین کپی‌رایت و علائم تجاری محافظت می‌شوند.
+ 
+ 9. اطلاعیه کپی‌رایت
+ © ۲۰۲۵ Byte Cycle. کلیه حقوق محفوظ است.
+ 
+ 10. تماس با ما
+ برای پشتیبانی یا سوالات، با ایمیل bytecycleorg@gmail.com تماس بگیرید.
+ 
+ با استفاده از برنامه، تایید می‌کنید که شرایط استفاده را مطالعه کرده، درک نموده و پذیرفته‌اید. "</string>
+    <string name="terms_of_service_title">شرایط استفاده</string>
+    <string name="tick">تیک</string>
+    <string name="tool_aim_assist">هدف گیری</string>
+    <string name="tool_chat">چت با گیمرا</string>
+    <string name="tool_hud">اطلاعات دستگاه</string>
+    <string name="tool_recorder">ضبط صفحه</string>
+    <string name="tools">ابزار ها</string>
+    <string name="tools_recorder_audio_channel_mono">مونو</string>
+    <string name="tools_recorder_audio_channel_stereo">استریو</string>
+    <string name="tools_recorder_audio_source_internal">صدای داخلی</string>
+    <string name="tools_recorder_audio_source_mic">صدای میکروفن</string>
+    <string name="tools_recorder_audio_source_mix">ترکیب هر دو</string>
+    <string name="tools_recorder_audio_source_none">بی صدا</string>
+    <string name="tools_recorder_help">برای شروع ضبط صفحه نمایش، باید پس از بوست کردن گزینه ”ضبط صفحه” رو در اعلان برنامه انتخاب کنید</string>
+    <string name="tools_recorder_video_quality_high">زیاد</string>
+    <string name="tools_recorder_video_quality_low">پایین</string>
+    <string name="tools_recorder_video_quality_medium">متوسط</string>
+    <string name="tools_recorder_video_quality_ultra">فوق زیاد</string>
+    <string name="tools_recorder_video_quality_veryhigh">خیلی زیاد</string>
+    <string name="try_now">شروع</string>
+    <string name="try_premium">تقویت با تمام توان</string>
+    <string name="try_premium_info">تمام قابلیت‌های تقویت را فعال کنید تا به بالاترین عملکرد برسید</string>
+    <string name="unlimited">نامحدود</string>
+    <string name="upgrade_plan">ارتقای حساب</string>
+    <string name="upgrade_to_premium">ارتقا به پرمیوم</string>
+    <string name="user_basic_badge">پایه</string>
+    <string name="user_premium_badge">پرمیوم</string>
+    <string name="v7_preference_off">خاموش</string>
+    <string name="v7_preference_on">روشن</string>
+    <string name="video_quality">کیفیت تصویر</string>
+    <string name="vpn_permission_denied_error">دسترسی برای ساخت VPN داده نشد!</string>
+</resources>

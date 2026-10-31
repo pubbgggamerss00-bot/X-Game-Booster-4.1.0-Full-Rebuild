@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_aim_assist_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:srcCompat="@drawable/img_game_fov" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/bg_tools_aim_assist" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_aim_assist_top" android:paddingTop="@dimen/paddingNormal" android:paddingBottom="@dimen/paddingSmall2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge">
+        <ImageView android:id="@id/btn_aim_assist_back" android:layout_width="@dimen/icMenuSize" android:layout_height="@dimen/icMenuSize" android:contentDescription="@string/back" app:srcCompat="@drawable/ic_arrow_back" app:tint="@color/colorWhiteMain" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_aim_assist_premium_notice" android:background="@drawable/bg_notice_premium_required" android:paddingTop="@dimen/paddingSmall2" android:paddingBottom="@dimen/paddingSmall2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/paddingNormal" android:paddingEnd="@dimen/paddingNormal" android:layout_marginStart="@dimen/paddingSmall" android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="@dimen/icToolsSettingsButton" android:layout_height="@dimen/icToolsSettingsButton" android:layout_marginEnd="@dimen/paddingSmall" app:srcCompat="@drawable/ic_vip" />
+            <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorTextDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/require_premium_error" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_aim_assist_previewer" android:padding="@dimen/paddingNormal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/img_aim_assist_crosshair" android:layout_width="30.0dip" android:layout_height="30.0dip" app:srcCompat="@drawable/ic_crosshair_1" app:tint="#ffffffff" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_aim_assist_bottom" android:padding="@dimen/paddingNormal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_aim_assist_apply" android:background="@drawable/bg_button_blue_round" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge">
+            <ImageView android:padding="2.0dip" android:layout_width="@dimen/icToolsSettingsButton" android:layout_height="@dimen/icToolsSettingsButton" android:layout_marginEnd="@dimen/paddingSmall" app:srcCompat="@drawable/ic_tick" app:tint="@color/colorWhiteMain" />
+            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorWhiteMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apply" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_aim_assist_reset" android:background="@drawable/bg_button_glass_red" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge" android:layout_marginStart="@dimen/paddingSmall">
+            <ImageView android:layout_width="@dimen/icToolsSettingsButton" android:layout_height="@dimen/icToolsSettingsButton" android:layout_marginEnd="@dimen/paddingSmall" app:srcCompat="@drawable/ic_close" app:tint="@color/colorOptionRed" />
+            <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorOptionRed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset" android:fontFamily="@font/main_bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_aim_assist_bottom" android:layout_below="@id/rl_aim_assist_top" android:paddingStart="@dimen/paddingNormal" android:paddingEnd="@dimen/paddingNormal">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_aim_assist_options1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/paddingNormal" android:layout_alignParentEnd="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/paddingNormal">
+                <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorWhiteMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/alpha" android:fontFamily="@font/main_bold" />
+                <ir.parsapp.gamebooster.widget.VerticalSeekBar android:id="@id/vsb_aim_assist_alpha" android:layout_width="40.0dip" android:layout_height="fill_parent" app:vsb_maxHeight="150.0dip" app:vsb_maxValue="100" app:vsb_minValue="10" app:vsb_progress="80" app:vsb_progressColor="#ffffffff" app:vsb_progressRadius="0.0dip" app:vsb_trackColor="#26ffffff" app:vsb_trackRadius="13.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorWhiteMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/size" android:fontFamily="@font/main_bold" />
+                <ir.parsapp.gamebooster.widget.VerticalSeekBar android:id="@id/vsb_aim_assist_size" android:layout_width="40.0dip" android:layout_height="fill_parent" app:vsb_maxHeight="150.0dip" app:vsb_maxValue="250" app:vsb_minValue="5" app:vsb_progress="50" app:vsb_progressColor="#ffffffff" app:vsb_progressRadius="0.0dip" app:vsb_trackColor="#26ffffff" app:vsb_trackRadius="13.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_aim_assist_options2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/paddingNormal" android:layout_alignParentStart="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/paddingNormal">
+                <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorWhiteMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/crosshair" android:fontFamily="@font/main_bold" />
+                <ir.parsapp.gamebooster.widget.MyRecyclerView android:id="@id/rv_aim_assist_crosshairs" android:layout_width="wrap_content" android:layout_height="fill_parent" app:rv_maxHeight="150.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/paddingNormal">
+                <TextView android:textSize="@dimen/textsizeSmall" android:textColor="@color/colorWhiteMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/paddingSmall" android:text="@string/color" android:fontFamily="@font/main_bold" />
+                <ir.parsapp.gamebooster.widget.MyRecyclerView android:id="@id/rv_aim_assist_colors" android:layout_width="wrap_content" android:layout_height="fill_parent" app:rv_maxHeight="150.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

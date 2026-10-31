@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/bg_dialog_progress" android:layout_width="110.0dip" android:layout_height="110.0dip">
+        <ir.parsapp.gamebooster.widget.CircularProgressBar android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="25.0dip" app:animateProgress="true" app:backgroundColor="#00ffffff" app:indeterminate="true" app:max="100" app:progress="80" app:progressGradientEnd="#ffffffc9" app:progressGradientStart="#ff9bfcff" app:shadowStroke="20" app:showPercent="false" app:showShadow="false" app:strokeWidth="8.0dip" style="?android:progressBarStyle" />
+    </RelativeLayout>
+</FrameLayout>

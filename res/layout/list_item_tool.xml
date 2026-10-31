@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_tool_container" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip">
+        <RelativeLayout android:id="@id/rl_tool_logo_bg" android:background="@drawable/ic_tools_recorder_bg" android:padding="10.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip">
+            <ImageView android:id="@id/img_tool_logo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@string/app" app:srcCompat="@drawable/ic_recorder" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/textsizeSmallS" android:textColor="@color/colorWhiteMain" android:ellipsize="end" android:gravity="center" android:id="@id/txt_tool_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paddingSmall2" android:text="App Name" android:maxLines="2" android:layout_weight="1.0" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textsizeSmallSS" android:textColor="@color/colorTextDark" android:gravity="center" android:id="@id/txt_tool_new_badge" android:background="@drawable/bg_rounded_yellow" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/_new" android:maxLines="2" android:includeFontPadding="false" android:fontFamily="@font/main_bold" android:textDirection="locale" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" android:layout_marginEnd="0.0dip" android:layout_alignEnd="@id/ll_tool_container" />
+</RelativeLayout>

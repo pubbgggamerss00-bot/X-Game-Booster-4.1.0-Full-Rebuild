@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/paddingSmall" android:paddingBottom="@dimen/paddingSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/paddingLarge" android:paddingEnd="@dimen/paddingLarge"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_spinner_vip" android:visibility="visible" android:layout_width="17.0dip" android:layout_height="17.0dip" android:contentDescription="@string/premium" android:layout_marginEnd="@dimen/paddingSmall" app:srcCompat="@drawable/ic_crown" app:tint="@color/colorPremium" />
+    <TextView android:textSize="@dimen/textsizeSmall" android:id="@id/txt_spinner_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="0.0dip" android:text="Title" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="@font/main_bold" android:textDirection="locale" />
+</LinearLayout>
