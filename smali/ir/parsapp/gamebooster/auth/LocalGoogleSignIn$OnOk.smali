@@ -74,17 +74,15 @@
     const/4 v2, 0x0
     aget-object v2, v1, v2
 
-    invoke-static {v0, v2}, Lir/parsapp/gamebooster/auth/LocalGoogleSignIn;->buildJwt(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
     # remember credentials for the manual-registration fallback
     sput-object v0, Lir/parsapp/gamebooster/auth/LocalGoogleSignIn;->lastEmail:Ljava/lang/String;
 
     sput-object v2, Lir/parsapp/gamebooster/auth/LocalGoogleSignIn;->lastName:Ljava/lang/String;
 
-    # GoogleAuthModel(idToken, name, email, imageUrl)
+    # GoogleAuthModel(idToken, name, email, imageUrl) — dummy token (local path skips server)
     new-instance v3, Lir/parsapp/gamebooster/models/GoogleAuthModel;
+
+    const-string v1, "local-id-token"
 
     const-string v4, ""
 

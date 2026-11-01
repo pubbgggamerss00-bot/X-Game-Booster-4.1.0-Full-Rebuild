@@ -165,55 +165,9 @@
 .method public static isUserPremium()Ljava/lang/Boolean;
     .locals 1
 
-    .line 1
-    invoke-static {}, Lir/parsapp/gamebooster/auth/AuthManager;->isUserLoggedIn()Ljava/lang/Boolean;
+    # PATCHED FOR TEST: always return premium=true so subscription is free during testing
+    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v0
-
-    .line 9
-    if-eqz v0, :cond_0
-
-    .line 10
-    .line 11
-    sget-object v0, Lir/parsapp/gamebooster/auth/AuthManager;->userModel:Lir/parsapp/gamebooster/models/UserModel;
-
-    .line 12
-    .line 13
-    if-eqz v0, :cond_0
-
-    .line 14
-    .line 15
-    iget-boolean v0, v0, Lir/parsapp/gamebooster/models/UserModel;->isPremium:Z
-
-    .line 16
-    .line 17
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-object v0
-
-    .line 21
-    return-object v0
-
-    .line 22
-    :cond_0
-    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
-
-    .line 23
-    .line 24
     return-object v0
 .end method
 

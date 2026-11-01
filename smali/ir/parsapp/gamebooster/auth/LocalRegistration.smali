@@ -272,8 +272,9 @@
 
     iput-object v2, v3, Lir/parsapp/gamebooster/models/UserModel;->imageUrl:Ljava/lang/String;
 
-    const/4 v2, 0x0
+    const/4 v2, 0x1
 
+    # PATCHED FOR TEST: free premium on local registration
     iput-boolean v2, v3, Lir/parsapp/gamebooster/models/UserModel;->isPremium:Z
 
     # persist the session (same call the server success path uses)

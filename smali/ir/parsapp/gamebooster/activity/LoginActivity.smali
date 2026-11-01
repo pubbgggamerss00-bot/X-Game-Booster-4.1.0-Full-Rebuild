@@ -516,17 +516,14 @@
     .line 143
     iget-object p1, p0, Lir/parsapp/gamebooster/activity/LoginActivity;->btnAccountLogin:Landroid/widget/LinearLayout;
 
-    .line 144
-    .line 145
-    new-instance v0, Ll8/u;
+    # PATCHED: wire account/Gmail button to the same local Google sign-in flow
+    # (was previously showing error_login_not_support via Ll8/u)
+    new-instance v0, Ll8/t;
 
-    .line 146
-    .line 147
-    invoke-direct {v0}, Ll8/u;-><init>()V
+    const/4 v1, 0x1
 
-    .line 148
-    .line 149
-    .line 150
+    invoke-direct {v0, p0, v1}, Ll8/t;-><init>(Lir/parsapp/gamebooster/activity/LoginActivity;I)V
+
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 151
